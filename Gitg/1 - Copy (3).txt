@@ -1,0 +1,4 @@
+git ls-tree -r --name-only <commit> (where instead of <commit> there can be <branch>).
+You might want to use also -t option which lists subdirectories before descending into them
+git diff <branchA>:<fileA> <branchB>:<fileB>,
+or if you want to compare the same file git diff <branchA> <branch
